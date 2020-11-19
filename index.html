@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="description" content="Начало">
     <link rel="stylesheet" href="style.css">
-    
+    <script src="https://use.fontawesome.com/ef7f46ba3d.js"></script>
 </head>
 <body style="margin: 0px;">
 
 
     <div class='header'>
-        <nav>
+        <nav class="fixed-menu">
             <ul>
                 <li><a href=""> Главная</a></li>
-                <li><a href=""> О сайте</a></li>
-                <li><a href="">Рецепты</a></li>
-                <li><a href="">Контакты</a></li>
+                <li><a href="#about-side"> О сайте</a></li>
+                <li><a href="#recipes">Рецепты</a></li>
+                <li><a href="#contact">Контакты</a></li>
             </ul>
         </nav>
 
@@ -24,7 +24,7 @@
     <main class="black-menu">
         <div class="fixed">
             <div class="Heading">
-                <h1>О Сайте</h1>
+                <h1 id="about-side">О Сайте</h1>
             </div>
 
             <div class="about">
@@ -37,21 +37,44 @@
                     И записывать новые рецепты. 
                 </p>
             </div>
-
-            <div class="recipes">
-                <ul>
-                    <li><a href="https://vkusno-i-prosto.ru/receipt/beze-po-klassicheskomu-receptu/"> Классическое безе</a></li>
-                   <li> <a href="https://vkusno-i-prosto.ru/receipt/sendvichi-s-kuricej-pomidorami-i-syrom/">Сэндвичи с курицей, помидорами и сыром</a></li>
-                    <li> <a href="https://vkusno-i-prosto.ru/receipt/cvetnaya-kapusta-v-syrnom-klyare-s-chesno/">Цветная капуста в сырном кляре с чесночным соусом</a></li>
-                    <li> <a href="https://vkusno-i-prosto.ru/receipt/tort-shokolad-na-kipyatke-s-vishnej/">Торт «Шоколад на кипятке» с вишней</a></li>
-                </ul>
+            <div class="Heading">
+                <h1 id="recipes">Рецепты</h1>
             </div>
-        </div>    
+            
+            <div class="recipes">
+                
+                <div> <a href="https://vkusno-i-prosto.ru/receipt/beze-po-klassicheskomu-receptu/"><img src="img/beze.jpg"> <div>Классическое безе</div></a></div>
+                <div> <a href="https://vkusno-i-prosto.ru/receipt/sendvichi-s-kuricej-pomidorami-i-syrom/"><img src="img/sendvichi.jpg"><div>Сэндвичи с курицей, помидорами и сыром</div></a></div>
+                <div> <a href="https://vkusno-i-prosto.ru/receipt/cvetnaya-kapusta-v-syrnom-klyare-s-chesno/"><img class="kapusta" src="img/cvetnaya-kapusta.jpg"><div>Цветная капуста в сырном кляре с чесночным соусом</div></a></div>
+                <div> <a href="https://vkusno-i-prosto.ru/receipt/tort-shokolad-na-kipyatke-s-vishnej/"><img src="img/tort.jpg"><div>Торт «Шоколад на кипятке» с вишней</div></a></div>
+                <div> <a href="https://vkusno-i-prosto.ru/receipt/beze-po-klassicheskomu-receptu/"><img src="img/beze.jpg"> <div>Классическое безе</div></a></div>
+                <div> <a href="https://vkusno-i-prosto.ru/receipt/sendvichi-s-kuricej-pomidorami-i-syrom/"><img src="img/sendvichi.jpg"><div>Сэндвичи с курицей, помидорами и сыром</div></a></div>
+                <div> <a href="https://vkusno-i-prosto.ru/receipt/cvetnaya-kapusta-v-syrnom-klyare-s-chesno/"><img class="kapusta" src="img/cvetnaya-kapusta.jpg"><div>Цветная капуста в сырном кляре с чесночным соусом</div></a></div>
+                <div> <a href="https://vkusno-i-prosto.ru/receipt/tort-shokolad-na-kipyatke-s-vishnej/"><img src="img/tort.jpg"><div>Торт «Шоколад на кипятке» с вишней</div></a></div>
+            </div>
+        </div>     
     </main>
 
+   
 
 </body>
 
-<footer class="contacts">
-    Контакты
+<footer id="contact" >
+   
+        <div class="contacts">
+           
+            <div class="info"> © 2020 TRAINING SIDE. </div>
+
+               <div class="icon">
+                   <a class="icon" href="#">
+                        <i class="fa fa-vk" aria-hidden="true"></i> 
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </div>
+               
+            
+            
+        </div>
+    
 </footer>
