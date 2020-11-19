@@ -1,10 +1,11 @@
-/*.fixed{
+.fixed{
 width: 1000px;
+margin: 0 auto;
 }
-*/
+
 
 .header{
-/*background-color: aquamarine;*/
+
 background: url(img/food2.jpg) no-repeat;
 background-size: 100%;
 height: 500px;
@@ -23,14 +24,65 @@ height: 500px;
 
 }
 
-.about{
-    background-color: cornflowerblue;
-}
-
-.recipes{
-    background-color: darkgreen;
-}
 
 .contacts{
     background-color: darksalmon;
+}
+
+.header a{
+text-decoration: none;
+color: rgb(214,219, 176);
+text-shadow: 2px 2px 5px rgb(115, 78,40);
+
+}
+
+.header a:hover{
+    color: rgb(204, 185, 185);  
+}
+.header a:active{
+    color: rgb(45, 31, 21);  
+}
+
+
+.Heading h1{
+    color: rgb(214,219, 176);
+    font-style: italic;
+    margin: 0px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.black-menu{
+    background-color: black;
+    color: rgb(214,219, 176);
+}
+.gradient{
+    background: black; 
+    background: linear-gradient(to top, black,transparent 100%);
+    padding: 16px;
+    margin-top: -30px;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    text-align: center;
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+.recipes li a{
+    text-decoration: none;
+    list-style-type: none; 
+    color: rgb(44,56, 7);
+}
+.recipes li{
+    
+    list-style-type: none; 
+    
 }
