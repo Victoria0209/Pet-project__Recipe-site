@@ -207,7 +207,7 @@ i{
 
 /*white-style*/
 .white-style .header{
-    background: url(img/food2.jpg) no-repeat;
+    background: url(img/foodwhite.jpg) no-repeat;
     background-size: 100%;
 }
 .white-style .header ul{
@@ -238,8 +238,9 @@ i{
     color: rgb(121, 131, 46);
 }
 .white-style .gradient{
-    background: rgb(236, 138, 138); 
-    background: linear-gradient(to top, rgb(219, 128, 128),transparent 100%);
+    
+    background: linear-gradient(to top, rgb(243, 241, 241),transparent 100%);
+    padding: 13px;
     
 }
 /*.white-style h2 {
