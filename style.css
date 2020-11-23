@@ -145,38 +145,38 @@ i{
 }
 
 /*black-style*/
-.header.black-style{
+.black-style .header{
     background: url(img/food2.jpg) no-repeat;
     background-size: 100%;
 }
-.header.black-style ul{
+.black-style .header ul{
     color:#808080;
 }
-.contacts.black-style{
+.black-style .contacts{
     background-color: darksalmon;
 }
-.fixed-menu.black-style{
+.black-style .fixed-menu{
     background: linear-gradient(to bottom, black,transparent 190%);
 }
-.header.black-style a{
+.black-style .header a{
     color: rgb(214,219, 176);
     text-shadow: 2px 2px 5px rgb(115, 78,40);
 }
-.header.black-style a:hover{
+.black-style .header a:hover{
     color: rgb(204, 185, 185);  
 }
-.header.black-style a:active{
+.black-style .header a:active{
     color: rgb(45, 31, 21);  
 }
-.Heading.black-style h1{
+.black-style .Heading h1{
     color: rgb(214,219, 176);
     border-bottom: 1px solid gray;
 }
-.black-menu.black-style{
+.black-style .black-menu{
     background-color: black;
     color: rgb(214,219, 176);
 }
-.gradient.black-style{
+.black-style .gradient{
     background: black; 
     background: linear-gradient(to top, black,transparent 100%);
     
@@ -185,10 +185,10 @@ i{
     color: rgb(214,219, 176);
     border-bottom: 1px solid gray;
 }*/
-.recipes.black-style a{
+.black-style .recipes a{
     color: white;
 }
-.contacts.black-style{
+.black-style .contacts{
     background-color: rgb(44, 40, 40);
     color: blanchedalmond;
     height: 90px;
@@ -197,71 +197,71 @@ i{
     justify-content: space-around;
     align-items:center;
 }
-.footer-menu.black-style{
+.black-style .footer-menu{
     background-color: black;
 }
-.icon.black-style a i{
+.black-style .icon a i{
     color: white;
     border: 2px solid white;
 }
 
 /*white-style*/
-.header.white-style{
+.white-style .header{
     background: url(img/food2.jpg) no-repeat;
     background-size: 100%;
 }
-.header.white-style ul{
-    color:#808080;
+.white-style .header ul{
+    color:#000000;
 }
-.contacts.white-style{
-    background-color: darksalmon;
+.white-style .contacts{
+    background-color: rgb(255, 255, 255);
 }
-.fixed-menu.white-style{
-    background: linear-gradient(to bottom, black,transparent 190%);
+.white-style .fixed-menu{
+    background: linear-gradient(to bottom, wheat,transparent 190%);
 }
-.header.white-style a{
-    color: rgb(214,219, 176);
-    text-shadow: 2px 2px 5px rgb(115, 78,40);
+.white-style .header a{
+    color: rgb(73, 61, 29);
+    text-shadow: 2px 2px 5px rgb(187, 131, 75);
 }
-.header.white-style a:hover{
-    color: rgb(204, 185, 185);  
+.white-style .header a:hover{
+    color: rgb(48, 45, 45);  
 }
-.header.white-style a:active{
+.white-style .header a:active{
     color: rgb(45, 31, 21);  
 }
-.Heading.white-style h1{
+.white-style .Heading h1{
     color: rgb(214,219, 176);
     border-bottom: 1px solid gray;
 }
-.black-menu.white-style{
-    background-color: black;
-    color: rgb(214,219, 176);
+.white-style .black-menu{
+    background-color: rgb(243, 241, 241);
+    color: rgb(121, 131, 46);
 }
-.gradient.white-style{
-    background: black; 
-    background: linear-gradient(to top, black,transparent 100%);
+.white-style .gradient{
+    background: rgb(236, 138, 138); 
+    background: linear-gradient(to top, rgb(219, 128, 128),transparent 100%);
     
 }
 /*.white-style h2 {
     color: rgb(214,219, 176);
     border-bottom: 1px solid gray;
 }*/
-.recipes.white-style a{
-    color: white;
+.white-style .recipes a{
+    color: rgb(8, 8, 8);
 }
-.contacts.white-style{
+.white-style .contacts{
     background-color: rgb(44, 40, 40);
-    color: blanchedalmond;
+    color: rgb(0, 0, 0);
     height: 90px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items:center;
 }
-.footer-menu.white-style{
-    background-color: black;
+.white-style .footer-menu{
+    background-color: rgb(255, 254, 254);
 }
-.icon.white-style a i{
-    color: white;
-    border: 2px solid white;
+.white-style .icon a i{
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
 }
